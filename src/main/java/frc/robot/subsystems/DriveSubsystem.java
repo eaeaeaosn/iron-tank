@@ -7,15 +7,14 @@ package frc.robot.subsystems;
 import com.ctre.phoenix.motorcontrol.ControlMode;
 import com.ctre.phoenix.motorcontrol.NeutralMode;
 import com.ctre.phoenix.motorcontrol.can.WPI_VictorSPX;
-
 import edu.wpi.first.wpilibj2.command.SubsystemBase;
 
 public class DriveSubsystem extends SubsystemBase {
   /** Creates new VictorSPX motor */
-  WPI_VictorSPX motorFrontRight = new WPI_VictorSPX(0);
-  WPI_VictorSPX motorFrontLeft = new WPI_VictorSPX(1);
-  WPI_VictorSPX motorBackRight = new WPI_VictorSPX(2);
-  WPI_VictorSPX motorBackLeft = new WPI_VictorSPX( 3);
+  WPI_VictorSPX motorFrontRight = new WPI_VictorSPX(1);
+  WPI_VictorSPX motorFrontLeft = new WPI_VictorSPX(0);
+  WPI_VictorSPX motorBackRight = new WPI_VictorSPX(3);
+  WPI_VictorSPX motorBackLeft = new WPI_VictorSPX(2);
 
   
   
